@@ -1,0 +1,59 @@
+body {
+    background-image: url("lung.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    right: 469px;
+}
+
+.dog1 {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid white;
+    width: 500px;
+    background-color: rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #444;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.int {
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+}
+
+.ac{
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
